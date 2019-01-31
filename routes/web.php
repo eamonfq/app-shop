@@ -13,9 +13,6 @@
 
 Route::get('/', 'TestController@welcome');
 
-Route::get('/prueba', function () {
-    return "Esto es una prueba";
-});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
